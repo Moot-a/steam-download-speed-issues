@@ -1,12 +1,13 @@
 # Steam Download Troubleshooting
 
+## `steam_dev.cfg`
 Create a file named steam_dev.cfg in your steam install directory :  
 
-| OS                       | File Path                                                       |
-| ------------------------ | --------------------------------------------------------------- |
-| Windows:                 | `C:\Program Files (x86)\Steam\steam_dev.cfg)`                   |
-| Linux (Native install):  | `~/.steam/steam/steam_dev.cfg`                                  |
-| Linux (Flatpak Install): | `~/.var/app/com.valvesoftware.Steam/.steam/steam/steam_dev.cfg` |
+|            OS            | File Path                                                        |
+| :----------------------: | ---------------------------------------------------------------- |
+|         Windows:         | `C:\Program Files (x86)\Steam\steam_dev.cfg)`                    |
+| Linux (Native install):  | `~/.steam/steam/steam_dev.cfg`                                   |
+| Linux (Flatpak Install): | `~/.var/app/com.valvesoftware.Steam/.steam/steam/steam_dev.cfg`  |
 
 Windows : `steam_dev.cfg`
 ```cfg
@@ -42,8 +43,14 @@ More Initial Servers
 Use `@cMaxInitialDownloadSources 15`  
 Some users report speed boosts by adding more initial servers.
 
+## DNS
 
+Changing DNS settings could be helpful too :
 
+| DNS Provider |          DNS           |
+| :----------: | :--------------------: |
+|  Cloudflare  | `1.1.1.1` \| `1.0.0.1` |
+|    Google    | `8.8.8.8` \| `8.8.4.4` |
 
 ---
 Sources :
