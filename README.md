@@ -1,9 +1,9 @@
 # Steam Download Troubleshooting
 
-Create a file named steam_dev.cfg in your steam install directory :
-Windows: `C:\Program Files (x86)\Steam\steam_dev.cfg)`
-Linux (Native install): `~/.steam/steam/steam_dev.cfg`
-Linux (Flatpak Install): `~/.var/app/com.valvesoftware.Steam/.steam/steam/steam_dev.cfg`
+Create a file named steam_dev.cfg in your steam install directory :  
+Windows: `C:\Program Files (x86)\Steam\steam_dev.cfg)`  
+Linux (Native install): `~/.steam/steam/steam_dev.cfg`  
+Linux (Flatpak Install): `~/.var/app/com.valvesoftware.Steam/.steam/steam/steam_dev.cfg`  
 
 Windows : `steam_dev.cfg`
 ```cfg
