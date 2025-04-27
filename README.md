@@ -45,3 +45,5 @@ Some users report speed boosts by adding more initial servers.
 ---
 Sources :
 https://www.reddit.com/r/linux_gaming/comments/16e1l4h/slow_steam_downloads_try_this/
+https://wiki.archlinux.org/title/Steam/Troubleshooting
+https://gist.github.com/FikriRNurhidayat/ce18426ad94fff2140538c0adf0e06ec?permalink_comment_id=4806133#gistcomment-4806133
