@@ -25,18 +25,18 @@ Linux : `steam_dev.cfg`
 @cMaxInitialDownloadSources 15
 ```
 
-HTTP2 Disabling
-Windows: `@nClientDownloadEnableHTTP2PlatformWindows 0`
-Linux: `@nClientDownloadEnableHTTP2PlatformLinux 0`
-MacOS: No toggle available.
+HTTP2 Disabling  
+Windows: `@nClientDownloadEnableHTTP2PlatformWindows 0`  
+Linux: `@nClientDownloadEnableHTTP2PlatformLinux 0`  
+MacOS: No toggle available.  
 HTTP2 can cause slowdowns (e.g., on Windows, speed went from 10-20MB/s to 60MB/s after disabling).
 
-More Connections
-Use `@fDownloadRateImprovementToAddAnotherConnection 1.1`
+More Connections  
+Use `@fDownloadRateImprovementToAddAnotherConnection 1.1`  
 This increases the number of servers Steam connects to, improving speeds in some cases (up to 10 servers).
 
-More Initial Servers
-Use `@cMaxInitialDownloadSources 15`
+More Initial Servers  
+Use `@cMaxInitialDownloadSources 15`  
 Some users report speed boosts by adding more initial servers.
 
 
